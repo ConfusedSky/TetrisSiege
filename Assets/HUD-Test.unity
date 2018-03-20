@@ -3878,7 +3878,7 @@ MonoBehaviour:
   tetrisGame: {fileID: 0}
   tetrisBoard: {fileID: 0}
   playerScript: {fileID: 0}
-  Cooldown: 0.1
+  Cooldown: 0.12
 --- !u!1 &1131000778
 GameObject:
   m_ObjectHideFlags: 0
