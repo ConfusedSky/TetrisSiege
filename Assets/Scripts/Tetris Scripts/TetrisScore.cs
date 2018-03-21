@@ -52,6 +52,9 @@ public class TetrisScore : MonoBehaviour {
 
 	void Game_BoardController_RowCollapsed (object sender, Tetris.RowCollapseEventArgs e)
 	{
+        if (e.Scored == false)
+            return;
+
 		rowCollapsed = true;
 		int[] basicScores = { Single, Double, Triple, Tetris };
 		int thisScore = 0;
