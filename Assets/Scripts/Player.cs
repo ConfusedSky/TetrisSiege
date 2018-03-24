@@ -177,7 +177,7 @@ public class Player: MonoBehaviour {
 			if (Health > HealthMax) {
 				Health = HealthMax;
 			}
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 4; i++)
             {
                 board.Controller.CollapseRow(board.Height - 1, false);
             }

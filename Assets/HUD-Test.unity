@@ -182,7 +182,7 @@ MonoBehaviour:
   HP_Text: {fileID: 896519840}
   AP: {fileID: 839043596}
   AP_Text: {fileID: 1141051893}
-  HealthMax: 100
+  HealthMax: 50
   Health: 50
   APMax: 16
   ActionPoints: 0
@@ -3825,7 +3825,7 @@ MonoBehaviour:
   HP_Text: {fileID: 1434638566}
   AP: {fileID: 414721713}
   AP_Text: {fileID: 330234496}
-  HealthMax: 100
+  HealthMax: 50
   Health: 50
   APMax: 16
   ActionPoints: 25
@@ -3878,7 +3878,7 @@ MonoBehaviour:
   tetrisGame: {fileID: 0}
   tetrisBoard: {fileID: 0}
   playerScript: {fileID: 0}
-  Cooldown: 0.12
+  Cooldown: 0.09
 --- !u!1 &1131000778
 GameObject:
   m_ObjectHideFlags: 0

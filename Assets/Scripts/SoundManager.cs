@@ -27,7 +27,8 @@ public class SoundManager : MonoBehaviour {
 
 	void Board_RowCollapsed (object sender, Tetris.RowCollapseEventArgs e)
 	{
-		Collapse.PlayOneShot (Collapse.clip);
+        if(e.Scored)
+		    Collapse.PlayOneShot (Collapse.clip);
 	}
 
 	void Game_BlockDropped (object sender, System.EventArgs e)
